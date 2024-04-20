@@ -80,7 +80,7 @@ if (failCount >= 4): #it didn't find any of the four crime categories; there's n
     exit()
 
 plt.legend( loc='upper left', fancybox=True, shadow=True, prop={'size' : 12} ) #if data was found: populate the legend
-plt.title('Crime in NYC (Law Categories) -- ' + str(yr), loc='right') #give it a title
-#plt.savefig( 'Crime in NYC (Law Categories) -- ' + str(yr) ) #save it
+plt.title('Arrests in NYC (Offense Categories) -- ' + str(yr), loc='right') #give it a title
+#plt.savefig( 'Arrests in NYC (Offense Categories) -- ' + str(yr) ) #save it
 plt.show() #display it
 plt.close() #just in case: close it!
