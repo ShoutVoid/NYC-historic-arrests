@@ -60,7 +60,7 @@ if (failCount >= 1): #it didn't find any offense in the given year; there's no p
     print('There is nothing to draw.')
     exit()
 
-plt.title('Crime in NYC (Offense Descriptions) -- ' + str(yr), loc='right') #give it a title
-#plt.savefig( 'Crime in NYC (Offense Descriptions) -- ' + str(yr) ) #save it
+plt.title('Arrests in NYC (Offense Descriptions) -- ' + str(yr), loc='right') #give it a title
+#plt.savefig( 'Arrests in NYC (Offense Descriptions) -- ' + str(yr) ) #save it
 plt.show() #display it
 plt.close() #just in case: close it!
