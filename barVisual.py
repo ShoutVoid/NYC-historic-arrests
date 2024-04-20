@@ -21,9 +21,9 @@ fig, ax = plt.subplots(figsize=(20,10), layout='constrained') #drawing surfaces
 #plt.figure(figsize=(1280*px,720*px), layout = 'constrained')
 barPlot = df.groupby(df.Year)['law_cat_cd'].value_counts(dropna=False).plot(kind = 'bar', color = ['royalblue', 'crimson', 'forestgreen', 'darkorange'] )
 #plt.grid(True)
-plt.xlabel('Year, Crime Category')
-plt.ylabel('N. of Crimes')
-plt.title('Crime in NYC -- 2006-2022')
+plt.xlabel('Year, Offense Category')
+plt.ylabel('N. of Arrests')
+plt.title('Arrests in NYC -- 2006-2022')
 plt.xticks(rotation=45)
 
 #plt.savefig('Crime in NYC -- 2006-2022 [Bar graph]')
